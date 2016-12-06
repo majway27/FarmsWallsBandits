@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map SYSTEM "http://mapeditor.org/dtd/1.0/map.dtd">
+<map version="1.0" orientation="orthogonal" width="25" height="17" tilewidth="32" tileheight="32">
+ <tileset name="grass" firstgid="1" tilewidth="32" tileheight="32">
+  <image source="grass.jpg"/>
+ </tileset>
+ <tileset name="rock" firstgid="5" tilewidth="32" tileheight="32">
+  <image source="rock.jpg"/>
+  <tile id="0">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="1">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="2">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+  <tile id="3">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="grass" width="25" height="17">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAGNkYGBgHMWjeBSP4lE8igchBgBzqZu0pAYAAA==
+  </data>
+ </layer>
+ <layer name="rock" width="25" height="17">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAAGNjYGBgowOmJRi1Y9SOUTtG7Ri1Y2DsoDUGAIhCvOykBgAA
+  </data>
+ </layer>
+</map>
